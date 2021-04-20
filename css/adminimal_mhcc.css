@@ -45,6 +45,11 @@
   }
 }
 
+.adminimal .form-checkboxes .form-item, .adminimal .form-radios .form-item {
+  display: flex;
+  align-items: baseline;
+}
+
 .adminimal thead th {
   border: none;
   color: #909090;

@@ -51,6 +51,11 @@
     }
   }
 
+  .form-checkboxes .form-item, .form-radios .form-item {
+    display: flex;
+    align-items: baseline;
+  }
+
   thead {
     th {
       border: none;
