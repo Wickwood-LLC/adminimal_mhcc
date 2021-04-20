@@ -1,12 +1,12 @@
-langcode: en
+\langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - adminimal_wwm
-id: adminimal_wwm_help
-theme: adminimal_wwm
+    - adminimal_mhcc
+id: adminimal_mhcc_help
+theme: adminimal_mhcc
 region: help
 weight: 0
 provider: null

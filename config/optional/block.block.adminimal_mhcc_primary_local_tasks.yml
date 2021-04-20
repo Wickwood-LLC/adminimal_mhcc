@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - adminimal_wwm
-id: adminimal_wwm_primary_local_tasks
-theme: adminimal_wwm
+    - adminimal_mhcc
+id: adminimal_mhcc_primary_local_tasks
+theme: adminimal_mhcc
 region: header
 weight: 0
 provider: null

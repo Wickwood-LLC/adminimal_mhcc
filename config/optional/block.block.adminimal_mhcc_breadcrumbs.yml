@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - adminimal_wwm
-id: adminimal_wwm_breadcrumbs
-theme: adminimal_wwm
+    - adminimal_mhcc
+id: adminimal_mhcc_breadcrumbs
+theme: adminimal_mhcc
 region: breadcrumb
 weight: 0
 provider: null

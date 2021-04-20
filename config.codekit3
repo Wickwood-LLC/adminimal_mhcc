@@ -9,32 +9,32 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/adminimal_wwm.info.yml": {
+	"/adminimal_mhcc.info.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/adminimal_wwm.info.yml",
+		"oAP": "/adminimal_mhcc.info.yml",
 		"oF": 0
 		},
-	"/adminimal_wwm.libraries.yml": {
+	"/adminimal_mhcc.libraries.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/adminimal_wwm.libraries.yml",
+		"oAP": "/adminimal_mhcc.libraries.yml",
 		"oF": 0
 		},
-	"/adminimal_wwm.settings.yml": {
+	"/adminimal_mhcc.settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/adminimal_wwm.settings.yml",
+		"oAP": "/adminimal_mhcc.settings.yml",
 		"oF": 0
 		},
-	"/adminimal_wwm.theme": {
+	"/adminimal_mhcc.theme": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/adminimal_wwm.theme",
+		"oAP": "/adminimal_mhcc.theme",
 		"oF": 0
 		},
 	"/bower.json": {
@@ -576,67 +576,67 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/config/optional/block.block.adminimal_wwm_breadcrumbs.yml": {
+	"/config/optional/block.block.adminimal_mhcc_breadcrumbs.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_breadcrumbs.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_breadcrumbs.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_content.yml": {
+	"/config/optional/block.block.adminimal_mhcc_content.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_content.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_content.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_help.yml": {
+	"/config/optional/block.block.adminimal_mhcc_help.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_help.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_help.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_local_actions.yml": {
+	"/config/optional/block.block.adminimal_mhcc_local_actions.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_local_actions.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_local_actions.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_login.yml": {
+	"/config/optional/block.block.adminimal_mhcc_login.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_login.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_login.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_messages.yml": {
+	"/config/optional/block.block.adminimal_mhcc_messages.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_messages.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_messages.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_page_title.yml": {
+	"/config/optional/block.block.adminimal_mhcc_page_title.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_page_title.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_page_title.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_primary_local_tasks.yml": {
+	"/config/optional/block.block.adminimal_mhcc_primary_local_tasks.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_primary_local_tasks.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_primary_local_tasks.yml",
 		"oF": 0
 		},
-	"/config/optional/block.block.adminimal_wwm_secondary_local_tasks.yml": {
+	"/config/optional/block.block.adminimal_mhcc_secondary_local_tasks.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/config/optional/block.block.adminimal_wwm_secondary_local_tasks.yml",
+		"oAP": "/config/optional/block.block.adminimal_mhcc_secondary_local_tasks.yml",
 		"oF": 0
 		},
 	"/css/adminimal_fonts.css": {
@@ -649,21 +649,21 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/adminimal_wwm.css": {
+	"/css/adminimal_mhcc.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/adminimal_wwm-min.css",
+		"oAP": "/css/adminimal_mhcc-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/adminimal_wwm.css.map": {
+	"/css/adminimal_mhcc.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/css/adminimal_wwm.css.map",
+		"oAP": "/css/adminimal_mhcc.css.map",
 		"oF": 0
 		},
 	"/css/ckeditor-styles.css": {
@@ -681,6 +681,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/css/ckeditor-styles.css.map",
+		"oF": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
 	"/images/caret-down.svg": {
@@ -756,24 +763,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/sass/adminimal_wwm.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sass/adminimal_wwm-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sass/adminimal_wwm.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sass/adminimal_wwm.css.map",
-		"oF": 0
-		},
-	"/sass/adminimal_wwm.scss": {
+	"/sass/adminimal_mhcc.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -781,8 +771,8 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/sass/adminimal_wwm.css",
-		"oF": 0,
+		"oAP": "/css/adminimal_mhcc.css",
+		"oF": 2,
 		"oS": 1,
 		"uL": 1
 		},
@@ -831,7 +821,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 601199528.08874702,
-	"displayValue": "adminimal_wwm",
+	"displayValue": "adminimal_mhcc",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-payne",
 	"iconImageWasSetByUser": 0

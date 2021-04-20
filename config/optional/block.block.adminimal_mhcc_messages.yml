@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - adminimal_wwm
-id: adminimal_wwm_messages
-theme: adminimal_wwm
+    - adminimal_mhcc
+id: adminimal_mhcc_messages
+theme: adminimal_mhcc
 region: highlighted
 weight: 0
 provider: null
