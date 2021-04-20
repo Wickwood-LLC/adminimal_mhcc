@@ -316,7 +316,6 @@
     
     input {
       flex: 1 1 calc(100% - var(--label-width));
-      min-width: 150px;
     }
   }
 
@@ -448,7 +447,6 @@
       align-items: baseline;
 
       input {
-        min-width: 195px;
         max-width: 100%;
       }
 
@@ -461,6 +459,9 @@
       .field--name-field-prefix,
       .field--name-field-suffix {
         display: inline-block;
+      }
+      .field--name-field-prefix {
+        margin-right: 1em;
       }
 
       #edit-field-mhcc-position {

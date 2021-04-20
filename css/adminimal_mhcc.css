@@ -280,7 +280,6 @@
 
 .adminimal .form-type-textfield input, .adminimal .form-type-number input, .adminimal .form-type-select input, .adminimal .form-type-email input, .adminimal .form-type-password input, .adminimal .form-type-tel input {
   flex: 1 1 calc(100% - var(--label-width));
-  min-width: 150px;
 }
 
 .adminimal label, .adminimal .label {
@@ -390,7 +389,6 @@
 .adminimal #user-form .form-type-password input,
 .adminimal #user-form .form-type-tel input,
 .adminimal #user-form .field--type-datetime input {
-  min-width: 195px;
   max-width: 100%;
 }
 
@@ -406,6 +404,10 @@
 .adminimal #user-form #edit-group-full-name .field--name-field-prefix,
 .adminimal #user-form #edit-group-full-name .field--name-field-suffix {
   display: inline-block;
+}
+
+.adminimal #user-form #edit-group-full-name .field--name-field-prefix {
+  margin-right: 1em;
 }
 
 .adminimal #user-form #edit-group-full-name #edit-field-mhcc-position {
