@@ -1236,6 +1236,7 @@ input[type=checkbox] {
   height: 16px !important;
   transition: background 0.5s ease;
   outline: none;
+  flex: 0 0 auto;
 }
 
 input[type=checkbox]#edit-delete {

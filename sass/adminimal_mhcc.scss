@@ -1361,9 +1361,9 @@ input[type=checkbox] {
   border: 1px solid #b5b5b5;
   width: 16px !important;
   height: 16px !important;
-
   transition: background 0.5s ease;
   outline: none;
+  flex: 0 0 auto;
 
   &#edit-delete {
     display: inline-block;
