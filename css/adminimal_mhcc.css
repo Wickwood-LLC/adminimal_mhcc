@@ -485,6 +485,17 @@
   flex: 1 1 calc(100% - 122px - 2em);
 }
 
+.adminimal #user-form #status-and-roles .fieldset-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.adminimal #user-form #status-and-roles .fieldset-wrapper [class*="role-expire"] {
+  flex: 1 1 250px;
+  max-width: 250px;
+  margin: 0.5em;
+}
+
 .adminimal #user-form #edit-field-mailing-address-wrapper .address-line1,
 .adminimal #user-form #edit-field-mailing-address-wrapper .address-line2 {
   flex: 100%;
