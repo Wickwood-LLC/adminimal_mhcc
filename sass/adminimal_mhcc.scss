@@ -1895,6 +1895,27 @@ form#pathauto-pattern-list {
   }
 }
 
+#ride-documents,
+#ride-features {
+  margin-top: 0;
+}
+.field--name-field-distance {
+  input {
+    flex: 0;
+    min-width: unset;
+    width: 50px;
+  }
+}
+.field--name-field-distance,
+.field--name-field-ride-type,
+.field--name-field-ride-pace,
+.field--name-field-ride-terrain,
+.field--name-field-ride-speed {
+  label {
+    width: 105px;
+  }
+}
+
 /********************* LAYOUTS *********************/
 .layout {
   position: relative;
