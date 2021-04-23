@@ -1656,10 +1656,11 @@ form#pathauto-pattern-list td:nth-child(2) {
   margin-top: 0;
 }
 
-.field--name-field-distance input {
+.field--name-field-distance .form-type-number input {
   flex: 0;
   min-width: unset;
-  width: 50px;
+  width: 65px;
+  margin-right: 0.5em;
 }
 
 .field--name-field-distance label,

@@ -1899,11 +1899,12 @@ form#pathauto-pattern-list {
 #ride-features {
   margin-top: 0;
 }
-.field--name-field-distance {
+.field--name-field-distance .form-type-number {
   input {
     flex: 0;
     min-width: unset;
-    width: 50px;
+    width: 65px;
+    margin-right: 0.5em;
   }
 }
 .field--name-field-distance,

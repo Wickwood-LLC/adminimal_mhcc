@@ -4,9 +4,7 @@
    */
   Drupal.behaviors.roleFieldsRelo = {
     attach: function(context, settings) {
-      $('[class*="form-item-role-expire"]').each(function() {
-        $(this).appendTo('#status-and-roles .fieldset-wrapper');
-      });
+      $('#edit-roles--wrapper, #edit-roles--wrapper').appendTo('#status-and-roles .fieldset-wrapper');
     }
   }; 
 
