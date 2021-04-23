@@ -1883,12 +1883,18 @@ form#pathauto-pattern-list {
 #ride-features {
   margin-top: 0;
 }
-.field--name-field-distance .form-type-number {
-  input {
-    flex: 0;
-    min-width: unset;
-    width: 65px;
-    margin-right: 0.5em;
+.field--name-field-distance,
+.field--name-field-number-members-attending,
+.field--name-field-number-non-mems-attending,
+.field--name-field-temperature,
+.field--name-field-low-temperature {
+  .form-type-number {
+    input {
+      flex: 0;
+      min-width: unset;
+      width: 65px;
+      margin-right: 0.5em;
+    }
   }
 }
 .field--name-field-distance,

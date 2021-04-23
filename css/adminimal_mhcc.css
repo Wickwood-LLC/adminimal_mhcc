@@ -1641,7 +1641,11 @@ form#pathauto-pattern-list td:nth-child(2) {
   margin-top: 0;
 }
 
-.field--name-field-distance .form-type-number input {
+.field--name-field-distance .form-type-number input,
+.field--name-field-number-members-attending .form-type-number input,
+.field--name-field-number-non-mems-attending .form-type-number input,
+.field--name-field-temperature .form-type-number input,
+.field--name-field-low-temperature .form-type-number input {
   flex: 0;
   min-width: unset;
   width: 65px;
