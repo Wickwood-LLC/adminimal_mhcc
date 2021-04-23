@@ -1906,6 +1906,19 @@ form#pathauto-pattern-list {
     width: 105px;
   }
 }
+.field--name-field-sky,
+.field--name-field-wind {
+  label {
+    width: 33px;
+  }
+}
+.field--name-field-traffic-experieced,
+.field--name-field-traffic-busy-at,
+.field--name-field-refreshment-stops {
+  label {
+    width: 121px;
+  }
+}
 
 /********************* LAYOUTS *********************/
 .layout {

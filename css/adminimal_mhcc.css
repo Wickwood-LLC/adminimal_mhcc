@@ -1660,6 +1660,17 @@ form#pathauto-pattern-list td:nth-child(2) {
   width: 105px;
 }
 
+.field--name-field-sky label,
+.field--name-field-wind label {
+  width: 33px;
+}
+
+.field--name-field-traffic-experieced label,
+.field--name-field-traffic-busy-at label,
+.field--name-field-refreshment-stops label {
+  width: 121px;
+}
+
 /********************* LAYOUTS *********************/
 .layout {
   position: relative;
