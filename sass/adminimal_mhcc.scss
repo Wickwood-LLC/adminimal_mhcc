@@ -538,17 +538,6 @@
       }
     }
 
-    #status-and-roles .fieldset-wrapper {
-      display: flex;
-      flex-flow: row wrap;
-      
-      [class*="role-expire"] {
-        flex: 1 1 250px;
-        max-width: 250px;
-        margin: 0.5em;
-      }
-    }
-
     #edit-field-mailing-address-wrapper {
 
       .address-line1,
@@ -679,13 +668,8 @@
     }
 
     #edit-roles {
-      display: flex;
-      flex-flow: row wrap;
-
-      .form-item {
-        margin-right: 1em;
-        flex: 0 0 143px;
-      }
+      column-width: 250px;
+      display: block;
     }
 
     .field--name-user-picture {
