@@ -4,7 +4,11 @@
    */
   Drupal.behaviors.roleFieldsRelo = {
     attach: function(context, settings) {
-      $('#edit-roles--wrapper, #edit-status--wrapper').appendTo('#status-and-roles .fieldset-wrapper');
+      if (!$('#edit-roles--wrapper, #edit-status--wrapper').length) {
+        $('#status-and-roles').hide();
+      } else {
+        $('#edit-roles--wrapper, #edit-status--wrapper').appendTo('#status-and-roles .fieldset-wrapper');
+      }
     }
   }; 
 
