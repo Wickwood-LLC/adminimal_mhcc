@@ -1660,6 +1660,11 @@ form#pathauto-pattern-list td:nth-child(2) {
   width: 105px;
 }
 
+.field--name-field-temperature label,
+.field--name-field-low-temperature label {
+  width: 115px;
+}
+
 .field--name-field-sky label,
 .field--name-field-wind label {
   width: 33px;

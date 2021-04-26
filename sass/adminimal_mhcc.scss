@@ -1906,6 +1906,12 @@ form#pathauto-pattern-list {
     width: 105px;
   }
 }
+.field--name-field-temperature,
+.field--name-field-low-temperature {
+  label {
+    width: 115px;
+  }
+}
 .field--name-field-sky,
 .field--name-field-wind {
   label {
