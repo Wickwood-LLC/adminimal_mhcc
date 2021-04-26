@@ -1235,17 +1235,17 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .adminimal select {
     border-radius: 0;
-    background: url(../images/caret-down.svg) no-repeat 98% 64% #fcfcfa;
+    background: url(../images/caret-down.svg) no-repeat 98% 64% #fff;
   }
   .adminimal select:focus {
-    background: url(../images/caret-down.svg) no-repeat 98% 64% #fcfcfa;
+    background: url(../images/caret-down.svg) no-repeat 98% 64% #fff;
     border-color: #68a3cf;
     color: #000;
     outline: 2px solid #c1e0ff;
     outline-offset: 0;
   }
   .adminimal select:hover {
-    background: url(../images/caret-down.svg) no-repeat 98% 64% #fcfcfa;
+    background: url(../images/caret-down.svg) no-repeat 98% 64% #fff;
   }
 }
 

@@ -1381,10 +1381,10 @@
   .adminimal select {
 
     border-radius: 0;
-    background: url(../images/caret-down.svg) no-repeat 98% 64% #fcfcfa;
+    background: url(../images/caret-down.svg) no-repeat 98% 64% #fff;
 
     &:focus {
-      background: url(../images/caret-down.svg) no-repeat 98% 64% #fcfcfa;
+      background: url(../images/caret-down.svg) no-repeat 98% 64% #fff;
       border-color: #68a3cf;
       color: #000;
       outline: 2px solid #c1e0ff;
@@ -1392,7 +1392,7 @@
     }
 
     &:hover {
-      background: url(../images/caret-down.svg) no-repeat 98% 64% #fcfcfa;
+      background: url(../images/caret-down.svg) no-repeat 98% 64% #fff;
     }
   }
 }
