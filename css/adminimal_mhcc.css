@@ -369,7 +369,7 @@
 
 .adminimal #user-form label[for]:after {
   content: ":\00a0";
-  display: inline-block;
+  display: inline;
   vertical-align: baseline;
 }
 
@@ -380,7 +380,7 @@
   background-position-x: right;
 }
 
-.adminimal #user-form .form-type-checkbox label:after {
+.adminimal #user-form .form-type-checkbox > label:after {
   content: "";
 }
 
@@ -602,9 +602,18 @@
 }
 
 .adminimal #user-form #edit-roles {
-  -webkit-column-width: 250px;
-          column-width: 250px;
+  -webkit-columns: 250px auto;
+          columns: 250px auto;
   display: block;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+}
+
+.adminimal #user-form #edit-roles .form-item {
+  margin-right: 1em;
+  flex: 0 0 143px;
+  display: inline-block;
+  width: 100%;
 }
 
 .adminimal #user-form .field--name-user-picture .image-widget {
@@ -1650,6 +1659,7 @@ form#pathauto-pattern-list td:nth-child(2) {
   min-width: unset;
   width: 65px;
   margin-right: 0.5em;
+  text-align: right;
 }
 
 .field--name-field-distance label,

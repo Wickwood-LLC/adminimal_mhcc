@@ -425,7 +425,7 @@
 
       &:after {
         content: ":\00a0";
-        display: inline-block;
+        display: inline;
         vertical-align: baseline;
       }
 
@@ -438,7 +438,7 @@
     }
 
     .form-type-checkbox {
-      label:after {
+      > label:after {
         content: "";
       }
     }
@@ -668,8 +668,16 @@
     }
 
     #edit-roles {
-      column-width: 250px;
+      columns: 250px auto;
       display: block;
+      column-gap: 1em;
+
+      .form-item {
+        margin-right: 1em;
+        flex: 0 0 143px;
+        display: inline-block;
+        width: 100%;
+      }
     }
 
     .field--name-user-picture {
@@ -1894,6 +1902,7 @@ form#pathauto-pattern-list {
       min-width: unset;
       width: 65px;
       margin-right: 0.5em;
+      text-align: right;
     }
   }
 }
