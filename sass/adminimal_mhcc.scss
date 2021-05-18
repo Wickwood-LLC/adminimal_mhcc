@@ -1935,6 +1935,42 @@ form#pathauto-pattern-list {
   }
 }
 
+/********************* FORMS *********************/
+
+#node-bikeabout-post-edit-form {
+  #edit-field-bikeabout-post-type {
+    column-width: 150px;
+  }
+  #field_feature_media-media-library-wrapper {
+    @include breakpoint(40em) {
+      margin: 2.5em 0 1em;
+    }
+  }
+  #edit-field-tags-wrapper {
+    padding: 0 18px;
+    border-radius: 2px;
+    background-color: #fcfcfa;
+    border: 1px solid #c0c0c0;
+  }
+
+  .layout.layout--twocol-bricks > .layout__region--first-below,
+  .layout.layout--twocol-bricks > .layout__region--second-below {
+      @include breakpoint(0em 40em) {
+        margin: 0;
+      }
+
+      @include breakpoint(40em) {
+        flex: 100%;
+        max-width: unset;
+      }
+
+      @include breakpoint(980px) {
+        flex: 0 1 50%;
+        max-width: 49%;
+      }
+  }
+}
+
 /********************* LAYOUTS *********************/
 .layout {
   position: relative;

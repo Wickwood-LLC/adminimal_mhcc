@@ -1686,6 +1686,48 @@ form#pathauto-pattern-list td:nth-child(2) {
   width: 121px;
 }
 
+/********************* FORMS *********************/
+#node-bikeabout-post-edit-form #edit-field-bikeabout-post-type {
+  -webkit-column-width: 150px;
+          column-width: 150px;
+}
+
+@media (min-width: 40em) {
+  #node-bikeabout-post-edit-form #field_feature_media-media-library-wrapper {
+    margin: 2.5em 0 1em;
+  }
+}
+
+#node-bikeabout-post-edit-form #edit-field-tags-wrapper {
+  padding: 0 18px;
+  border-radius: 2px;
+  background-color: #fcfcfa;
+  border: 1px solid #c0c0c0;
+}
+
+@media (min-width: 0em) and (max-width: 40em) {
+  #node-bikeabout-post-edit-form .layout.layout--twocol-bricks > .layout__region--first-below,
+  #node-bikeabout-post-edit-form .layout.layout--twocol-bricks > .layout__region--second-below {
+    margin: 0;
+  }
+}
+
+@media (min-width: 40em) {
+  #node-bikeabout-post-edit-form .layout.layout--twocol-bricks > .layout__region--first-below,
+  #node-bikeabout-post-edit-form .layout.layout--twocol-bricks > .layout__region--second-below {
+    flex: 100%;
+    max-width: unset;
+  }
+}
+
+@media (min-width: 980px) {
+  #node-bikeabout-post-edit-form .layout.layout--twocol-bricks > .layout__region--first-below,
+  #node-bikeabout-post-edit-form .layout.layout--twocol-bricks > .layout__region--second-below {
+    flex: 0 1 50%;
+    max-width: 49%;
+  }
+}
+
 /********************* LAYOUTS *********************/
 .layout {
   position: relative;
