@@ -2044,7 +2044,7 @@ form#pathauto-pattern-list {
     flex-flow: row wrap;
 
     @include breakpoint(740px) {
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
     }
 
     >.layout__region--first {
@@ -2060,8 +2060,8 @@ form#pathauto-pattern-list {
       }
 
       @include breakpoint(740px) {
-        flex: 1 1 calc(50% - 0.5em);
-        max-width: calc(50% - 0.5em);
+        flex: 1 1 calc(50% - 1em);
+        max-width: calc(50% - 1em);
       }
     }
 

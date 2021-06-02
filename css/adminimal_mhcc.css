@@ -1806,7 +1806,7 @@ form#pathauto-pattern-list td:nth-child(2) {
 
 @media (min-width: 740px) {
   .layout.layout--twocol {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
   }
 }
 
@@ -1829,8 +1829,8 @@ form#pathauto-pattern-list td:nth-child(2) {
 @media (min-width: 740px) {
   .layout.layout--twocol > .layout__region--first,
   .layout.layout--twocol > .layout__region--second {
-    flex: 1 1 calc(50% - 0.5em);
-    max-width: calc(50% - 0.5em);
+    flex: 1 1 calc(50% - 1em);
+    max-width: calc(50% - 1em);
   }
 }
 
