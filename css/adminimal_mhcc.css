@@ -49,6 +49,22 @@
 .adminimal .form-radios .form-item {
   display: flex;
   align-items: baseline;
+  flex-flow: row wrap;
+}
+
+.adminimal .form-checkboxes .form-item input,
+.adminimal .form-radios .form-item input {
+  flex: 0 0 auto;
+}
+
+.adminimal .form-checkboxes .form-item label,
+.adminimal .form-radios .form-item label {
+  flex: 1 1 0;
+}
+
+.adminimal .form-checkboxes .form-item .description,
+.adminimal .form-radios .form-item .description {
+  flex: 100%;
 }
 
 .adminimal .form-radios {
@@ -303,6 +319,15 @@
 .adminimal .form-type-password input,
 .adminimal .form-type-tel input {
   min-width: 150px;
+}
+
+.adminimal .form-type-textfield .description,
+.adminimal .form-type-number .description,
+.adminimal .form-type-select .description,
+.adminimal .form-type-email .description,
+.adminimal .form-type-password .description,
+.adminimal .form-type-tel .description {
+  flex: 100%;
 }
 
 .adminimal label,
@@ -1694,6 +1719,10 @@ form#pathauto-pattern-list td:nth-child(2) {
 }
 
 /********************* FORMS *********************/
+.cke {
+  max-width: 100%;
+}
+
 #node-bikeabout-post-edit-form #edit-field-bikeabout-post-type {
   -webkit-column-width: 150px;
           column-width: 150px;
@@ -1862,6 +1891,7 @@ form#pathauto-pattern-list td:nth-child(2) {
 .layout.layout--twocol-bricks > .layout__region {
   flex: 0 1 100%;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 @media (min-width: 40em) {

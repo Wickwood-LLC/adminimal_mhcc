@@ -56,6 +56,17 @@
     .form-item {
       display: flex;
       align-items: baseline;
+      flex-flow: row wrap;
+
+      input {
+        flex: 0 0 auto;
+      }
+      label {
+        flex: 1 1 0;
+      }
+      .description {
+        flex: 100%
+      }
     }
   }
   .form-radios {
@@ -334,6 +345,9 @@
 
     input {
       min-width: 150px;
+    }
+    .description {
+      flex: 100%;
     }
   }
 
@@ -1943,6 +1957,9 @@ form#pathauto-pattern-list {
 }
 
 /********************* FORMS *********************/
+.cke {
+  max-width: 100%;
+}
 
 #node-bikeabout-post-edit-form {
   #edit-field-bikeabout-post-type {
@@ -2093,6 +2110,7 @@ form#pathauto-pattern-list {
     >.layout__region {
       flex: 0 1 100%;
       box-sizing: border-box;
+      max-width: 100%;
     }
 
     @include breakpoint(40em) {
