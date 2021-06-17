@@ -1721,6 +1721,7 @@ form#pathauto-pattern-list td:nth-child(2) {
 /********************* FORMS *********************/
 .cke {
   max-width: 100%;
+  width: 100%;
 }
 
 #node-bikeabout-post-edit-form #edit-field-bikeabout-post-type {
