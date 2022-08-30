@@ -115,6 +115,10 @@
 		&:focus {
 			background: transparent;
 		}
+
+        a {
+            font-weight: bold;
+        }
 	}
 	.is-collapse-enabled {
 		.tabs__trigger {
@@ -1108,10 +1112,12 @@
 					margin-right: 0;
 				}
 			}
-			ul.tabs.secondary li:first-of-type {
-				margin-left: 1em;
-				margin-right: 0;
-			}
+			ul.tabs.secondary {
+                li:first-of-type {
+                    margin-left: 1em;
+                    margin-right: 0;
+                }
+            }
 		}
 		.tabs.primary .tabs__tab.is-active {
 			border-top-right-radius: 0;

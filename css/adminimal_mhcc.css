@@ -120,6 +120,9 @@
 .adminimal .tabs__tab:focus {
   background: transparent;
 }
+.adminimal .tabs__tab a {
+  font-weight: bold;
+}
 .adminimal .is-collapse-enabled .tabs__trigger {
   border-radius: 0;
 }
