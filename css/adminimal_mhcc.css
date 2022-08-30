@@ -167,6 +167,9 @@
   margin-left: 0;
   margin-right: 0;
 }
+.adminimal .is-horizontal .tabs.primary a {
+  padding: 7px 1.5em 7px 1.5em;
+}
 .adminimal .is-horizontal .tabs.primary a:hover {
   text-decoration: underline;
 }
