@@ -16,7 +16,7 @@
     }
 
     function handleResize(e) {
-      $tab.addClass('is-horizontal');
+      $tab.addClass('is-horizontal').removeClass('is-collapse-enabled');
       var $tabs = $tab.find('.tabs');
       var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
       $tab.toggleClass('is-horizontal', isHorizontal);
@@ -42,19 +42,6 @@
       if (notSmartPhone.matches) {
         once('nav-tabs', '[data-drupal-nav-tabs]', context).forEach(init);
       }
-
-      let $tab = $('ul-tabs');
-      let tabsTabHeight = $tab.find('.tabs__tab').outerHeight();
-
-      let isHorizontal = tabsHeight <= tabsTabHeight;
-      $tab.toggleClass('is-horizontal', isHorizontal);
-
-      $(window).on('resize', function () {
-        let tabsHeight = $('ul.tabs').outerHeight();
-
-        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
-      });
-
     }
   };
 })(jQuery, Drupal);
