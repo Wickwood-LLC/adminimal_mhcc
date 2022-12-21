@@ -10,7 +10,8 @@
       if (!$('#edit-roles--wrapper, #edit-status--wrapper').length) {
         $('#status-and-roles').hide();
       } else {
-        $('#edit-roles--wrapper, #edit-status--wrapper').appendTo('#status-and-roles .fieldset-wrapper');
+        $(once('moved', '#edit-status--wrapper', context)).appendTo('#status-and-roles > .fieldset-wrapper');
+        $(once('moved', '#edit-roles--wrapper', context)).appendTo('#status-and-roles > .fieldset-wrapper');
       }
     }
   }; 
