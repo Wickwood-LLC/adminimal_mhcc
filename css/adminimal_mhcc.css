@@ -41,6 +41,9 @@
     margin: auto;
   }
 }
+.adminimal .form--slick .form-checkboxes .form-item {
+  display: block;
+}
 .adminimal .form-checkboxes .form-item,
 .adminimal .form-radios .form-item {
   display: flex;
