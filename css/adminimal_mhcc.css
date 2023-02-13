@@ -1041,6 +1041,44 @@
   width: 310px;
   box-sizing: border-box;
 }
+.adminimal .view-mhcc-ride-reports-rev .views-exposed-form .form--inline {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(6, 1fr);
+}
+.adminimal .view-mhcc-ride-reports-rev .views-exposed-form .form--inline > .form-item {
+  margin: 0;
+}
+.adminimal .view-mhcc-ride-reports-rev #edit-field-no-repeat-date-and-time-value-wrapper {
+  grid-column: span 6;
+}
+.adminimal .view-mhcc-ride-reports-rev .form-item-field-first-name-value,
+.adminimal .view-mhcc-ride-reports-rev .form-item-field-last-name-value {
+  grid-column: span 6;
+}
+@media (min-width: 380px) {
+  .adminimal .view-mhcc-ride-reports-rev .form-item-field-first-name-value,
+  .adminimal .view-mhcc-ride-reports-rev .form-item-field-last-name-value {
+    grid-column: span 3;
+  }
+}
+.adminimal .view-mhcc-ride-reports-rev .form-item-sort-by,
+.adminimal .view-mhcc-ride-reports-rev .form-item-sort-order,
+.adminimal .view-mhcc-ride-reports-rev .form-item-items-per-page {
+  grid-column: span 6;
+  justify-self: center;
+}
+@media (min-width: 530px) {
+  .adminimal .view-mhcc-ride-reports-rev .form-item-sort-by,
+  .adminimal .view-mhcc-ride-reports-rev .form-item-sort-order,
+  .adminimal .view-mhcc-ride-reports-rev .form-item-items-per-page {
+    grid-column: span 2;
+  }
+}
+.adminimal .view-mhcc-ride-reports-rev #edit-actions {
+  grid-column: span 6;
+  text-align: center;
+}
 
 [dir=rtl] .adminimal .is-horizontal .tabs__tab + .tabs__tab {
   border-radius: 0;

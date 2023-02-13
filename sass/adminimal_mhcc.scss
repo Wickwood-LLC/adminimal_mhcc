@@ -1340,6 +1340,47 @@
 			}
 		}
 	}
+
+	.view-mhcc-ride-reports-rev {
+		.views-exposed-form .form--inline {
+			display: grid;
+			gap: 1em;
+			grid-template-columns: repeat(6, 1fr);
+
+			>.form-item {
+				margin: 0;
+			}
+		}
+
+		#edit-field-no-repeat-date-and-time-value-wrapper {
+			grid-column: span 6;
+		}
+
+		.form-item-field-first-name-value,
+		.form-item-field-last-name-value {
+			grid-column: span 6;
+
+			@include breakpoint(380px) {
+				grid-column: span 3;
+			}
+		}
+
+		.form-item-sort-by,
+		.form-item-sort-order,
+		.form-item-items-per-page {
+			grid-column: span 6;
+			justify-self: center;
+
+			@include breakpoint(530px) {
+				grid-column: span 2;
+			}
+		}
+
+		#edit-actions {
+			grid-column: span 6;
+			text-align: center;
+		}
+	}
 }
 
 [dir="rtl"] {
