@@ -1382,44 +1382,40 @@
 		}
 	}
 
-	#node-calendar-item-form {
+	#node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper),
+	#node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper) {
+		border: 1px solid #c0c0c0;
+		background-color: #fcfcfa;
+		padding: 0.5em;
 
-		#edit-title-wrapper,
-		#edit-field-event-type-wrapper,
-		#edit-field-event-description-wrapper {
+		.form-item {
+			margin: 0;
+		}
+	}
+
+	[class*="field--type"]>div[id*="add-more-wrapper"] {
+		table {
 			border: 1px solid #c0c0c0;
-			background-color: #fcfcfa;
-			padding: 0.5em;
+			border-bottom: 0;
 
-			.form-item {
+			+.description {
+				border: 1px solid #c0c0c0;
+				border-bottom: 0;
+				border-top: 0;
 				margin: 0;
+				padding: 0.5em;
+
+				+div.clearfix {
+					border: 1px solid #c0c0c0;
+					border-top: 0;
+					padding: 0 0.5em 0.5em;
+					text-align: center;
+				}
 			}
 		}
 
-		#edit-field-event-website-wrapper {
-			table {
-				border: 1px solid #c0c0c0;
-				border-bottom: 0;
-
-				+.description {
-					border: 1px solid #c0c0c0;
-					border-bottom: 0;
-					border-top: 0;
-					margin: 0;
-					padding: 0.5em;
-
-					+div.clearfix {
-						border: 1px solid #c0c0c0;
-						border-top: 0;
-						padding: 0 0.5em 0.5em;
-						text-align: center;
-					}
-				}
-			}
-
-			tbody>tr:nth-child(even) {
-				background-color: #ececec;
-			}
+		tbody>tr:nth-child(even) {
+			background-color: #ececec;
 		}
 	}
 
