@@ -1381,6 +1381,56 @@
 			text-align: center;
 		}
 	}
+
+	#node-calendar-item-form {
+
+		#edit-title-wrapper,
+		#edit-field-event-type-wrapper,
+		#edit-field-event-description-wrapper {
+			border: 1px solid #c0c0c0;
+			background-color: #fcfcfa;
+			padding: 0.5em;
+
+			.form-item {
+				margin: 0;
+			}
+		}
+
+		#edit-field-event-website-wrapper {
+			table {
+				border: 1px solid #c0c0c0;
+				border-bottom: 0;
+
+				+.description {
+					border: 1px solid #c0c0c0;
+					border-bottom: 0;
+					border-top: 0;
+					margin: 0;
+					padding: 0.5em;
+
+					+div.clearfix {
+						border: 1px solid #c0c0c0;
+						border-top: 0;
+						padding: 0 0.5em 0.5em;
+						text-align: center;
+					}
+				}
+			}
+
+			tbody>tr:nth-child(even) {
+				background-color: #ececec;
+			}
+		}
+	}
+
+	.entity-meta {
+		border-top: 1px solid #bfbfbf;
+
+		details:first-child {
+			border-top: 0;
+			border-radius: 3px 3px 0 0;
+		}
+	}
 }
 
 [dir="rtl"] {
