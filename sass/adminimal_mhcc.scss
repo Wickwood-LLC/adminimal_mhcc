@@ -1382,13 +1382,14 @@
 		}
 	}
 
-	#node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper),
-	#node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper),
-	#node-front-page-feature-form :is(#edit-title-html-wrapper,
-		#edit-field-link-to-page-wrapper,
-		#edit-field-feature-description-wrapper,
-		#edit-field-open-in-new-tab-wrapper,
-		#edit-field-featured-status-wrapper) {
+	// #node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper),
+	// #node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper),
+	// #node-front-page-feature-form :is(#edit-title-html-wrapper,
+	// 	#edit-field-link-to-page-wrapper,
+	// 	#edit-field-feature-description-wrapper,
+	// 	#edit-field-open-in-new-tab-wrapper,
+	// 	#edit-field-featured-status-wrapper),
+	.node-form :is(.field--type-string, .field--type-text-with-summary, .field--type-text-long, .field--type-string-long, .field--type-integer, .field--type-boolean, .field--type-entity-reference:not(.field--widget-media-library-widget)) {
 		border: 1px solid #c0c0c0;
 		background-color: #fcfcfa;
 		padding: 0.5em;
