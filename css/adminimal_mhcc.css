@@ -1080,13 +1080,24 @@
   text-align: center;
 }
 .adminimal #node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper),
-.adminimal #node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper) {
+.adminimal #node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper),
+.adminimal #node-front-page-feature-form :is(#edit-title-html-wrapper,
+#edit-field-link-to-page-wrapper,
+#edit-field-feature-description-wrapper,
+#edit-field-open-in-new-tab-wrapper,
+#edit-field-featured-status-wrapper) {
   border: 1px solid #c0c0c0;
   background-color: #fcfcfa;
   padding: 0.5em;
+  margin: 1em 0;
 }
 .adminimal #node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper) .form-item,
-.adminimal #node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper) .form-item {
+.adminimal #node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper) .form-item,
+.adminimal #node-front-page-feature-form :is(#edit-title-html-wrapper,
+#edit-field-link-to-page-wrapper,
+#edit-field-feature-description-wrapper,
+#edit-field-open-in-new-tab-wrapper,
+#edit-field-featured-status-wrapper) .form-item {
   margin: 0;
 }
 .adminimal [class*=field--type] > div[id*=add-more-wrapper] table {

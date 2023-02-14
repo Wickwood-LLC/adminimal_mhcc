@@ -1383,10 +1383,16 @@
 	}
 
 	#node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper),
-	#node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper) {
+	#node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper),
+	#node-front-page-feature-form :is(#edit-title-html-wrapper,
+		#edit-field-link-to-page-wrapper,
+		#edit-field-feature-description-wrapper,
+		#edit-field-open-in-new-tab-wrapper,
+		#edit-field-featured-status-wrapper) {
 		border: 1px solid #c0c0c0;
 		background-color: #fcfcfa;
 		padding: 0.5em;
+		margin: 1em 0;
 
 		.form-item {
 			margin: 0;
