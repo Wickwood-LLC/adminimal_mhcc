@@ -1341,7 +1341,7 @@
 		}
 	}
 
-	#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 {
+	:is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) {
 		padding: 1em 0;
 
 		.form--inline {
@@ -1367,7 +1367,7 @@
 				grid-template-columns: repeat(12, 1fr);
 			}
 
-			#edit-field-no-repeat-date-and-time-value-wrapper {
+			:is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) {
 				.fieldset-wrapper {
 					display: grid;
 					gap: 0.5em;
@@ -1434,8 +1434,14 @@
 				}
 
 				@include breakpoint(601px) {
+					display: flex;
 					grid-column: span 2;
 					grid-template-columns: max-content auto;
+
+					>select {
+						min-width: 0;
+						flex: 1 1 0;
+					}
 				}
 
 				@include breakpoint(768px) {

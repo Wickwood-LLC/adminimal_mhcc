@@ -1041,143 +1041,148 @@
   width: 310px;
   box-sizing: border-box;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) {
   padding: 1em 0;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline {
   display: grid;
   gap: 1em;
   justify-content: center;
   margin: auto;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item {
   margin: 0;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline:before, .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline:after {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline:before, .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline:after {
   display: none;
 }
 @media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline {
     grid-template-columns: repeat(6, 1fr);
   }
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline {
     grid-template-columns: repeat(12, 1fr);
   }
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper .fieldset-wrapper {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) .fieldset-wrapper {
   display: grid;
   gap: 0.5em;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper .fieldset-wrapper > .form-item {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) .fieldset-wrapper > .form-item {
   margin: 0;
   display: grid;
   gap: 0.5em;
   grid-template-columns: 1fr 5fr;
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper .fieldset-wrapper {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) .fieldset-wrapper {
     grid-template-columns: 1fr 1fr;
   }
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper .fieldset-wrapper > .form-item {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) .fieldset-wrapper > .form-item {
     grid-template-columns: 1fr 5fr;
   }
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper .fieldset-wrapper > .form-item input {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) .fieldset-wrapper > .form-item input {
     min-width: unset;
   }
 }
 @media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) {
     grid-column: 1/-1;
   }
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-field-no-repeat-date-and-time-value-wrapper {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline :is(#edit-field-no-repeat-date-and-time-value-wrapper, #edit-field-actual-ride-date-value-wrapper) {
     grid-column: span 6;
   }
 }
 @media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline .form-item-field-first-name-value {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline .form-item-field-first-name-value {
     grid-column: 1/span 3;
   }
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline .form-item-field-first-name-value {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline .form-item-field-first-name-value {
     grid-column: span 3;
     align-self: end;
   }
 }
 @media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline .form-item-field-last-name-value {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline .form-item-field-last-name-value {
     grid-column: 4/span 3;
   }
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline .form-item-field-last-name-value {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline .form-item-field-last-name-value {
     grid-column: span 3;
     align-self: end;
   }
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-by {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-by {
   display: grid;
   gap: 1em;
   grid-template-columns: 1fr 2fr;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-by > label {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-by > label {
   margin: 0;
 }
 @media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-by {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-by {
+    display: flex;
+    grid-column: span 2;
+    grid-template-columns: max-content auto;
+  }
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-by > select {
+    min-width: 0;
+    flex: 1 1 0;
+  }
+}
+@media (min-width: 768px) {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-by {
+    grid-column: span 3;
+  }
+}
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-order {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 2fr;
+}
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-order > label {
+  margin: 0;
+}
+@media (min-width: 601px) {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-order {
     grid-column: span 2;
     grid-template-columns: max-content auto;
   }
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-by {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-sort-order {
     grid-column: span 3;
   }
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-order {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-items-per-page {
   display: grid;
   gap: 1em;
   grid-template-columns: 1fr 2fr;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-order > label {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-items-per-page > label {
   margin: 0;
 }
 @media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-order {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-items-per-page {
     grid-column: span 2;
     grid-template-columns: max-content auto;
   }
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-sort-order {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline > .form-item-items-per-page {
     grid-column: span 3;
   }
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-items-per-page {
-  display: grid;
-  gap: 1em;
-  grid-template-columns: 1fr 2fr;
-}
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-items-per-page > label {
-  margin: 0;
-}
-@media (min-width: 601px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-items-per-page {
-    grid-column: span 2;
-    grid-template-columns: max-content auto;
-  }
-}
-@media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline > .form-item-items-per-page {
-    grid-column: span 3;
-  }
-}
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-actions {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline #edit-actions {
   text-align: center;
   margin: 0;
   display: grid;
@@ -1186,11 +1191,11 @@
   justify-content: center;
   grid-column: 1/-1;
 }
-.adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-actions > input {
+.adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline #edit-actions > input {
   margin: 0;
 }
 @media (min-width: 768px) {
-  .adminimal #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1 .form--inline #edit-actions {
+  .adminimal :is(#views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-1, #views-exposed-form-mhcc-ride-reports-rev-page-with-page-title-4) .form--inline #edit-actions {
     grid-column: span 3;
   }
 }
