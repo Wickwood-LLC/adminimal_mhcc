@@ -63,10 +63,8 @@
   flex: 100%;
 }
 .adminimal .form-radios {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  -moz-column-gap: 0.5em;
-       column-gap: 0.5em;
+  display: flex;
+  gap: 0.5em;
 }
 .adminimal thead th {
   border: none;
