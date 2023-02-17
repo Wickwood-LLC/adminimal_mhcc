@@ -15,6 +15,9 @@
 /*.adminimal .ckeditor-toolbar-configuration.js-form-wrapper.form-wrapper {
   zoom: 0.9;
 }*/
+.adminimal table {
+  width: max(800px, 100%);
+}
 .adminimal .page-title {
   color: #fff;
   font-size: 2.35em;

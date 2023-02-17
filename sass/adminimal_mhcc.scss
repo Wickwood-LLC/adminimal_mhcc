@@ -25,6 +25,10 @@
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 .adminimal {
+	table {
+		width: max(800px, 100%);
+	}
+
 	.page-title {
 		color: #fff;
 		font-size: 2.35em;
