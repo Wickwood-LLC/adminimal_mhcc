@@ -1200,6 +1200,99 @@
     grid-column: span 3;
   }
 }
+.adminimal #views-exposed-form-user-management-page-1 {
+  padding: 1em 0;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form--inline {
+  display: grid;
+  gap: 1em;
+  margin: auto;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+.adminimal #views-exposed-form-user-management-page-1 .form--inline > .form-item {
+  margin: 0;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form--inline:before, .adminimal #views-exposed-form-user-management-page-1 .form--inline:after {
+  display: none;
+}
+@media (min-width: 709px) {
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline #edit-actions {
+    grid-row: 7/span 3;
+  }
+}
+@media (min-width: 922px) {
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline {
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+  }
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline .form-item-sort-by,
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline .form-item-sort-order,
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline .form-item-items-per-page {
+    grid-column: 3/span 1;
+  }
+  .adminimal #views-exposed-form-user-management-page-1 .form--inline #edit-actions {
+    grid-column: 4;
+    grid-row: 4/span 3;
+  }
+}
+.adminimal #views-exposed-form-user-management-page-1 .form-item-field-first-name-value {
+  grid-column: span 1;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form-item-field-last-name-value {
+  grid-column: span 1;
+  grid-row: 2;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form-item-field-public-email-value {
+  grid-column: span 1;
+  grid-row: 3;
+}
+.adminimal #views-exposed-form-user-management-page-1 #edit-roles-target-id-wrapper {
+  grid-row: 1/span 3;
+}
+.adminimal #views-exposed-form-user-management-page-1 fieldset {
+  grid-row: span 3;
+}
+.adminimal #views-exposed-form-user-management-page-1 fieldset > .fieldset-wrapper {
+  display: grid;
+  gap: 0.5em;
+}
+.adminimal #views-exposed-form-user-management-page-1 fieldset > .fieldset-wrapper > div {
+  margin: 0;
+}
+.adminimal #views-exposed-form-user-management-page-1 fieldset select {
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form-item-sort-by {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form-item-sort-order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column: 1/span 1;
+}
+.adminimal #views-exposed-form-user-management-page-1 .form-item-items-per-page {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column: 1/span 1;
+}
+.adminimal #views-exposed-form-user-management-page-1 #edit-actions {
+  text-align: center;
+  margin: 0;
+  display: grid;
+  gap: 1em;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 10/span 3;
+  align-content: center;
+}
+.adminimal #views-exposed-form-user-management-page-1 #edit-actions > input {
+  margin: 0;
+}
 .adminimal .node-form :is(.field--type-string, .field--type-text-with-summary, .field--type-text-long, .field--type-string-long, .field--type-integer, .field--type-boolean, .field--type-entity-reference:not(.field--widget-media-library-widget)) {
   border: 1px solid #c0c0c0;
   background-color: #fcfcfa;

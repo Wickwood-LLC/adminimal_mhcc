@@ -1510,6 +1510,119 @@
 		}
 	}
 
+	#views-exposed-form-user-management-page-1 {
+		padding: 1em 0;
+
+		.form--inline {
+			display: grid;
+			gap: 1em;
+			margin: auto;
+			grid-template-columns: repeat(2, minmax(200px, 1fr));
+
+			>.form-item {
+				margin: 0;
+			}
+
+			&:before,
+			&:after {
+				display: none;
+			}
+
+			@include breakpoint(709px) {
+				grid-template-columns: repeat(3, minmax(200px, 1fr));
+
+				#edit-actions {
+					grid-row: 7/span 3;
+				}
+			}
+
+			@include breakpoint(922px) {
+				grid-template-columns: repeat(4, minmax(200px, 1fr));
+
+				.form-item-sort-by,
+				.form-item-sort-order,
+				.form-item-items-per-page {
+					grid-column: 3/span 1;
+				}
+
+				#edit-actions {
+					grid-column: 4;
+					grid-row: 4/span 3;
+				}
+			}
+		}
+
+		.form-item-field-first-name-value {
+			grid-column: span 1;
+		}
+
+		.form-item-field-last-name-value {
+			grid-column: span 1;
+			grid-row: 2;
+		}
+
+		.form-item-field-public-email-value {
+			grid-column: span 1;
+			grid-row: 3;
+		}
+
+		#edit-roles-target-id-wrapper {
+			grid-row: 1/span 3;
+		}
+
+		fieldset {
+			grid-row: span 3;
+
+			>.fieldset-wrapper {
+				display: grid;
+				gap: 0.5em;
+
+
+				>div {
+					margin: 0;
+				}
+			}
+
+			select {
+				max-width: 100%;
+				width: 100%;
+				min-width: 0;
+			}
+		}
+
+		.form-item-sort-by {
+			display: grid;
+			grid-template-columns: auto 1fr;
+		}
+
+		.form-item-sort-order {
+			display: grid;
+			grid-template-columns: auto 1fr;
+			grid-column: 1 / span 1;
+		}
+
+		.form-item-items-per-page {
+			display: grid;
+			grid-template-columns: auto 1fr;
+			grid-column: 1 / span 1;
+		}
+
+		#edit-actions {
+			text-align: center;
+			margin: 0;
+			display: grid;
+			gap: 1em;
+			justify-content: center;
+			grid-column: 2;
+			grid-row: 10/span 3;
+			align-content: center;
+
+			>input {
+				margin: 0;
+			}
+		}
+	}
+
 	// #node-calendar-item-form :is(#edit-title-wrapper, #edit-field-event-type-wrapper, #edit-field-event-description-wrapper),
 	// #node-starting-location-form :is(#edit-title-wrapper, #edit-body-wrapper),
 	// #node-front-page-feature-form :is(#edit-title-html-wrapper,
