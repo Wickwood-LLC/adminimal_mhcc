@@ -1293,6 +1293,14 @@
 .adminimal #views-exposed-form-user-management-page-1 #edit-actions > input {
   margin: 0;
 }
+.adminimal .view-mhcc-communications .views-row {
+  border: solid;
+  border-width: thin;
+  padding: 1em;
+}
+.adminimal .view-mhcc-communications .views-row + .views-row {
+  margin-top: 1em;
+}
 .adminimal .node-form :is(.field--type-string, .field--type-text-with-summary, .field--type-text-long, .field--type-string-long, .field--type-integer, .field--type-boolean, .field--type-entity-reference:not(.field--widget-media-library-widget)) {
   border: 1px solid #c0c0c0;
   background-color: #fcfcfa;
