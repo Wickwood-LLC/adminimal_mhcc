@@ -18,6 +18,9 @@
 .adminimal:not(.cke_dialog_open) table {
   width: max(800px, 100%);
 }
+.adminimal:not(.cke_dialog_open) table td {
+  vertical-align: top;
+}
 .adminimal .page-title {
   color: #fff;
   font-size: 2.35em;

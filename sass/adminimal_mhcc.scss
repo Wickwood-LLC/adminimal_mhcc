@@ -27,6 +27,10 @@
 .adminimal {
 	&:not(.cke_dialog_open) table {
 		width: max(800px, 100%);
+
+		td {
+			vertical-align: top;
+		}
 	}
 
 	.page-title {
