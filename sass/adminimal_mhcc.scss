@@ -25,12 +25,12 @@
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 .adminimal {
-	&:not(.cke_dialog_open) table {
+	.views-table {
 		width: max(800px, 100%);
+	}
 
-		td {
-			vertical-align: top;
-		}
+	td {
+		vertical-align: top;
 	}
 
 	.page-title {

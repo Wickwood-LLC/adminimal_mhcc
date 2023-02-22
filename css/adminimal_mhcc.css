@@ -15,10 +15,10 @@
 /*.adminimal .ckeditor-toolbar-configuration.js-form-wrapper.form-wrapper {
   zoom: 0.9;
 }*/
-.adminimal:not(.cke_dialog_open) table {
+.adminimal .views-table {
   width: max(800px, 100%);
 }
-.adminimal:not(.cke_dialog_open) table td {
+.adminimal td {
   vertical-align: top;
 }
 .adminimal .page-title {
