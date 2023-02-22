@@ -1640,7 +1640,7 @@
 	}
 
 	.node-form {
-		:is(.field--type-string, .field--type-text-with-summary, .field--type-text-long, .field--type-string-long, .field--type-integer, .field--type-decimal, .field--type-boolean, .field--type-entity-reference:not(.field--widget-media-library-widget)) {
+		:is([class*="field--type-string"], [class*="field--type-text"], .field--type-integer, .field--type-decimal, .field--type-list-string, .field--type-boolean, .field--type-entity-reference:not(.field--widget-media-library-widget)) {
 			border: 1px solid #c0c0c0;
 			background-color: #fcfcfa;
 			padding: 0.5em;
