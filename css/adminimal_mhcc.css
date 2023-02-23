@@ -39,13 +39,13 @@
   background-color: #434343;
   padding: 2rem 0 0;
 }
-.adminimal .layout-container {
-  max-width: 95%;
-}
 @media screen and (min-width: 1500px) {
   .adminimal .layout-container {
     margin: auto;
   }
+}
+.adminimal[data-path=admin-people-permissions] .dialog-off-canvas-main-canvas > .layout-container {
+  max-width: 95%;
 }
 .adminimal .form--slick .form-checkboxes .form-item {
   display: block;

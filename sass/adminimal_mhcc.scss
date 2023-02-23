@@ -55,11 +55,13 @@
 	}
 
 	.layout-container {
-		max-width: 95%;
-
 		@media screen and (min-width: 1500px) {
 			margin: auto;
 		}
+	}
+
+	&[data-path="admin-people-permissions"] .dialog-off-canvas-main-canvas>.layout-container {
+		max-width: 95%;
 	}
 
 	.form--slick .form-checkboxes .form-item {
