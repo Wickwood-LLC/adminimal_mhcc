@@ -1711,9 +1711,9 @@ form#pathauto-pattern-list td:nth-child(2) {
 }
 
 .view-id-memberships .views-exposed-form .form--inline {
-  display: flex;
-  flex-flow: row wrap;
-  grid-gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
 }
 .view-id-memberships .views-exposed-form .form--inline .form-item {
   margin: 0;
@@ -1724,45 +1724,60 @@ form#pathauto-pattern-list td:nth-child(2) {
 .view-id-memberships .views-exposed-form .form--inline .form-checkboxes .form-item label {
   margin: 0;
 }
-.view-id-memberships .views-exposed-form .form-item-uid-1 {
-  flex: 1 1 0;
-  min-width: 25%;
-}
-.view-id-memberships .views-exposed-form #edit-state--wrapper {
-  flex: 1 1 auto;
-}
 .view-id-memberships .views-exposed-form #edit-state--wrapper .form-checkboxes {
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-.view-id-memberships .views-exposed-form #edit-expires-wrapper {
-  align-self: start;
-}
 .view-id-memberships .views-exposed-form #edit-expires-wrapper .form-item {
   margin: 0.5em 0;
 }
 .view-id-memberships .views-exposed-form #edit-actions {
-  flex: 100%;
   text-align: center;
+}
+@media (min-width: 480px) {
+  .view-id-memberships .views-exposed-form .form--inline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .view-id-memberships .views-exposed-form .form-item-field-first-name-value {
+    grid-column: span 1;
+  }
+  .view-id-memberships .views-exposed-form .form-item-field-last-name-value {
+    grid-column: span 1;
+  }
+  .view-id-memberships .views-exposed-form .form-item-uid-1 {
+    grid-column: span 1;
+  }
+  .view-id-memberships .views-exposed-form #edit-expires-wrapper {
+    grid-column: 2/span 1;
+    grid-row: 1/span 3;
+  }
+  .view-id-memberships .views-exposed-form #edit-state--wrapper {
+    grid-column: span 2;
+  }
+  .view-id-memberships .views-exposed-form #edit-actions {
+    grid-column: 1/-1;
+  }
 }
 @media (min-width: 768px) {
   .view-id-memberships .views-exposed-form .form--inline {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .view-id-memberships .views-exposed-form .form-item-field-first-name-value {
+    grid-column: span 2;
+  }
+  .view-id-memberships .views-exposed-form .form-item-field-last-name-value {
+    grid-column: span 2;
   }
   .view-id-memberships .views-exposed-form .form-item-uid-1 {
-    flex: 1 1 0;
-    min-width: 25%;
+    grid-column: span 2;
   }
   .view-id-memberships .views-exposed-form #edit-expires-wrapper {
-    grid-area: 2/1/3/2;
+    grid-column: span 2;
+    grid-row: span 1;
   }
   .view-id-memberships .views-exposed-form #edit-state--wrapper {
-    grid-area: 1/2/3/3;
-  }
-  .view-id-memberships .views-exposed-form #edit-actions {
-    grid-column: 1/3;
+    grid-column: span 4;
   }
 }
 

@@ -2186,9 +2186,9 @@ form#pathauto-pattern-list {
 .view-id-memberships {
 	.views-exposed-form {
 		.form--inline {
-			display: flex;
-			flex-flow: row wrap;
-			grid-gap: 0.5rem;
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 1em;
 
 			.form-item {
 				margin: 0;
@@ -2203,14 +2203,7 @@ form#pathauto-pattern-list {
 			}
 		}
 
-		.form-item-uid-1 {
-			flex: 1 1 0;
-			min-width: 25%;
-		}
-
 		#edit-state--wrapper {
-			flex: 1 1 auto;
-
 			.form-checkboxes {
 				display: grid;
 				grid-gap: 0.5rem;
@@ -2219,39 +2212,70 @@ form#pathauto-pattern-list {
 		}
 
 		#edit-expires-wrapper {
-			align-self: start;
-
 			.form-item {
 				margin: 0.5em 0;
 			}
 		}
 
 		#edit-actions {
-			flex: 100%;
 			text-align: center;
+		}
+
+		@include breakpoint(480px) {
+			.form--inline {
+				grid-template-columns: repeat(2, 1fr);
+			}
+
+			.form-item-field-first-name-value {
+				grid-column: span 1;
+			}
+
+			.form-item-field-last-name-value {
+				grid-column: span 1;
+			}
+
+			.form-item-uid-1 {
+				grid-column: span 1;
+			}
+
+			#edit-expires-wrapper {
+				grid-column: 2/span 1;
+				grid-row: 1/span 3;
+			}
+
+			#edit-state--wrapper {
+				grid-column: span 2;
+			}
+
+			#edit-actions {
+				grid-column: 1/-1;
+			}
 		}
 
 		@include breakpoint(768px) {
 			.form--inline {
-				display: grid;
-				grid-template-columns: 1fr 1fr;
+				grid-template-columns: repeat(6, 1fr);
+			}
+
+			.form-item-field-first-name-value {
+				grid-column: span 2;
+			}
+
+			.form-item-field-last-name-value {
+				grid-column: span 2;
 			}
 
 			.form-item-uid-1 {
-				flex: 1 1 0;
-				min-width: 25%;
+				grid-column: span 2;
 			}
 
 			#edit-expires-wrapper {
-				grid-area: 2/1/3/2;
+				grid-column: span 2;
+				grid-row: span 1;
 			}
 
 			#edit-state--wrapper {
-				grid-area: 1/2/3/3;
-			}
-
-			#edit-actions {
-				grid-column: 1/3;
+				grid-column: span 4;
 			}
 		}
 	}
