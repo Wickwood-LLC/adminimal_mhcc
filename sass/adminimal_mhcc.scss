@@ -364,6 +364,15 @@
 		}
 	}
 
+	.form-item-daily-frequency {
+		gap: 0.5em;
+
+		>input {
+			flex: 0;
+			min-width: unset;
+		}
+	}
+
 	label,
 	.label {
 		margin: 0 0.5em 0.2em 0.2em;

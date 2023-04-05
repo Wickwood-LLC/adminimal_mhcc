@@ -292,6 +292,13 @@
 .adminimal .form-type-tel .description {
   flex: 100%;
 }
+.adminimal .form-item-daily-frequency {
+  gap: 0.5em;
+}
+.adminimal .form-item-daily-frequency > input {
+  flex: 0;
+  min-width: unset;
+}
 .adminimal label,
 .adminimal .label {
   margin: 0 0.5em 0.2em 0.2em;
